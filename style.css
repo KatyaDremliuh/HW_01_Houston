@@ -25,8 +25,17 @@ figcaption {
     font-style: italic;
 }
 
+figcaption {
+    font-style: italic;
+    display: table-caption;
+    caption-side: bottom;
+    }
+
 figure {
-    float: right; /*обтекание картинки по левому краю*/
-    padding-left: 25px; /*отступ слева*/
-   /* margin-bottom: 1rem; отступ снизу*/
-  }
+    clear: right;
+    float: right;
+    display:table;
+    margin-right: auto;
+    margin-left: 40px;
+    margin-bottom: 20px;
+   }
